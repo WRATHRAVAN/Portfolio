@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="PORTFOLIO.CSS">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/7743846734.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="/IMAGE/Logo-removebg-preview.png" alt="" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul> 
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>WEB DEVELOVER ,<br> CORE JAVA DEVELOPER</p>
+                <h1>Hi, I'm <span>Nitesh</span></h1>
+            </div>
+        </div>
+    </div>
+    <!-- -------about------ -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="/IMAGE/IMG_20221113_150321_917.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>"Hello, I'm Nitesh Kumar Sudhakar, a computer science graduate with a passion for web development. I completed my bachelor's degree in computer science and have since dedicated myself to exploring the dynamic world of web development. I thrive on creating innovative and user-friendly web solutions, constantly learning and adapting to the ever-evolving technology landscape. My goal is to contribute meaningfully to the field by leveraging my skills and knowledge in crafting engaging online experiences."</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('project')">Project</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><Span>Frontend</Span><br>HTML CSS JAVASCRIPT</li>
+                            <li><Span>CORE JAVA</Span><br>JAVA JDBC SPRINGBOOT SPRING</li>
+                            <li><Span>DATABASE</Span><br>SQL</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="project">
+                        <ul>
+                            <li><Span>HEART DISEASE PREDICTION</Span><br>•Led the analysis of large-scale health datasets to identify patterns and trends related to heart
+                                diseases.
+                                •Implemented data-driven strategies to improve patient outcomes and reduce the risk of
+                                cardiovascular events. <br>
+                                •Collaborated with healthcare providers to implement preventive measures based on datadriven insights. <br>
+                                •Conducted regular training sessions for medical staff on the use of data analytics tools for
+                                proactive cardiovascular care. <br>
+                                </li>
+                            <li><Span>CONTENT MANAGEMENT SYSTEM</Span><br>Implemented and managed a robust content management system, streamlining the content
+                                creation and publishing process. <br>
+                                •Orchestrated the migration from an outdated CMS to a modern platform, resulting in a 30%
+                                increase in website performance and user engagement. <br>
+                                •Developed and maintained content schedules, ensuring timely and relevant updates to the
+                                company's online presence. <br>
+                                •Collaborated with cross-functional teams, including marketing and design, to create and
+                                optimize content for various digital channels. <br></li>
+                            <li><Span>PORTFOLIO</Span><br>
+                                .Designed and implemented a personal portfolio website showcasing skills and projects. <br>
+                                . Utilized HTML, CSS, and JavaScript for a responsive and user-friendly experience. <br>
+                                </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><Span> B-TECH(Computer Science and Engineering)-Percentage- 70%</Span><br>Shivalik College Of Engineering,Dehradhun 2019 – 2023 | Uttrakhand, India</li>
+                            <li><Span>12th grade - Percentage- 63.45%</Span><br>Sun Flower School, Begusarai Bihar 2017 – 2018 | BEGUSARAI, India</li>
+                            <li><Span>10th Grade- cgpa-7.8</Span><br>DAV Public School , Begusarai Bihar 2016 – 2017</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   <!-- ----------------Services---------------------- -->
+ <div id="services">
+    <div class="container">
+        <h1 class="sub-title">My services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web design Portfolio</h2>
+                <p> Designed and implemented a personal portfolio website showcasing skills and projects.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>Heart Diseases Predication</h2>
+                <p>Led the analysis of large-scale health datasets to identify patterns and trends related to heart diseases. •Implemented data-driven strategies to improve patient outcomes and reduce the risk of cardiovascular events.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>Content Management System</h2>
+                <p>Collaborated with cross-functional teams, including marketing and design, to create and optimize content for various digital channels.</p>
+                <a href="#">Learn more</a>
+            </div>
+
+        </div>
+    </div>
+ </div>
+ <!-- -----Portfolio----------------------------- -->
+ <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-titles"> My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="/IMAGE/work1.0.png" alt="" height="220px">
+                <div class="layer">
+                    <h3>My portfolio</h3>
+                    <p> Utilized HTML, CSS, and JavaScript for a responsive and user-friendly experience.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div> 
+            <div class="work">
+                <img src="/IMAGE/work2.0.jpg" alt="" height="220px">
+                <div class="layer">
+                    <h3>Heart Diseases Predication</h3>
+                    <p>Conducted regular training sessions for medical staff on the use of data analytics tools for proactive cardiovascular care.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="/IMAGE/work3.0.jpg" alt="" height="220px">
+                <div class="layer">
+                    <h3>Content Management System</h3>
+                    <p>Collaborated with cross-functional teams, including marketing and design, to create and optimize content for various digital channels.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+       
+    </div>
+ </div>
+ <!-- --------contact me------------------------- -->
+ <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>niteshsudhakar333@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>8229898561</p>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-instagram"></i> </a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    <a href=""><i class="fa-solid fa-envelopes-bulk"></i></a>
+                </div>
+                <a href="/IMAGE/NITESH-KUMAR-SUDHAKAR-FlowCV-Resume-20231206 (1).pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="your name" required>
+                    <input type="email" name="Email" placeholder="your email" required >
+                    <textarea name="Message"   rows="6" placeholder="Your message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @ Nitesh<i class="fa-solid fa-heart"></i> Portfolio</p>
+    </div>
+ </div>
+
+   <script src="PORTFOLIO.JS"></script>
+   <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxGv1CMNtUEE8qWTgXCbuoeTS4WbeWYVuxiI18vJN0wl4em4lktkUJsb5-nP2ImNPdtWg/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message Sent Successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },4000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+ 
+    
+</body>
+</html>
